@@ -1,4 +1,5 @@
-
+;; Copyright (C) 2013 Meng-Cheng Cheng (letoh)
+;;
 (defun get-sunrise-sunset-string ()
   "get the real result from `sunrise-sunset'"
   (save-window-excursion
@@ -16,4 +17,3 @@
 	    (kill-buffer buf))))
       s)))
 
-(get-sunrise-sunset-string)
